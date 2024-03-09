@@ -1,7 +1,4 @@
-<p align="center">
-![Icon-App-76x76@2x](https://github.com/Srujith20/Zotto/assets/66065988/49ef14bc-6941-498d-bd7f-de98630b7039)
-</p>
-
+![Icon-App-76x76@1x](https://github.com/Srujith20/Zotto/assets/66065988/cfa4d3ad-f325-45db-980f-be4dcde2a192)
 # Zotto
 
 ## Description
@@ -24,8 +21,7 @@ Zotto is an iOS application developed using Xcode, designed to enhance the dinin
 ## Installation
 To run the RestaurantApp locally:
 
-1. Clone the repository:
-git clone https://github.com/your-username/RestaurantApp.git
+1. Clone the repository: git clone https://github.com/your-username/RestaurantApp.git
 2. Open the project in Xcode.
 3. Ensure all dependencies are installed.
 4. Build and run the application on the iOS simulator or a physical iOS device.
