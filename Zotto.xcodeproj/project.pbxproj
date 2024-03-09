@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D46155092B9CFB1D00C136B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46155082B9CFB1D00C136B4 /* AppDelegate.swift */; };
+		D461550B2B9CFB1D00C136B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461550A2B9CFB1D00C136B4 /* SceneDelegate.swift */; };
+		D461550D2B9CFB1D00C136B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461550C2B9CFB1D00C136B4 /* ViewController.swift */; };
+		D46155102B9CFB1D00C136B4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D461550F2B9CFB1D00C136B4 /* Base */; };
+		D46155122B9CFB1E00C136B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46155112B9CFB1E00C136B4 /* Assets.xcassets */; };
+		D46155152B9CFB1E00C136B4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D46155142B9CFB1E00C136B4 /* Base */; };
+		D46155202B9CFB1E00C136B4 /* ZottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461551F2B9CFB1E00C136B4 /* ZottoTests.swift */; };
+		D461552A2B9CFB1E00C136B4 /* ZottoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46155292B9CFB1E00C136B4 /* ZottoUITests.swift */; };
+		D461552C2B9CFB1E00C136B4 /* ZottoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461552B2B9CFB1E00C136B4 /* ZottoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D461551C2B9CFB1E00C136B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46154FD2B9CFB1D00C136B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46155042B9CFB1D00C136B4;
+			remoteInfo = Zotto;
+		};
+		D46155262B9CFB1E00C136B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D46154FD2B9CFB1D00C136B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D46155042B9CFB1D00C136B4;
+			remoteInfo = Zotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D46155052B9CFB1D00C136B4 /* Zotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46155082B9CFB1D00C136B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D461550A2B9CFB1D00C136B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D461550C2B9CFB1D00C136B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D461550F2B9CFB1D00C136B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46155112B9CFB1E00C136B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46155142B9CFB1E00C136B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46155162B9CFB1E00C136B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461551B2B9CFB1E00C136B4 /* ZottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D461551F2B9CFB1E00C136B4 /* ZottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZottoTests.swift; sourceTree = "<group>"; };
+		D46155252B9CFB1E00C136B4 /* ZottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46155292B9CFB1E00C136B4 /* ZottoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZottoUITests.swift; sourceTree = "<group>"; };
+		D461552B2B9CFB1E00C136B4 /* ZottoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZottoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46155022B9CFB1D00C136B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155182B9CFB1E00C136B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155222B9CFB1E00C136B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D46154FC2B9CFB1D00C136B4 = {
+			isa = PBXGroup;
+			children = (
+				D46155072B9CFB1D00C136B4 /* Zotto */,
+				D461551E2B9CFB1E00C136B4 /* ZottoTests */,
+				D46155282B9CFB1E00C136B4 /* ZottoUITests */,
+				D46155062B9CFB1D00C136B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D46155062B9CFB1D00C136B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46155052B9CFB1D00C136B4 /* Zotto.app */,
+				D461551B2B9CFB1E00C136B4 /* ZottoTests.xctest */,
+				D46155252B9CFB1E00C136B4 /* ZottoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46155072B9CFB1D00C136B4 /* Zotto */ = {
+			isa = PBXGroup;
+			children = (
+				D46155082B9CFB1D00C136B4 /* AppDelegate.swift */,
+				D461550A2B9CFB1D00C136B4 /* SceneDelegate.swift */,
+				D461550C2B9CFB1D00C136B4 /* ViewController.swift */,
+				D461550E2B9CFB1D00C136B4 /* Main.storyboard */,
+				D46155112B9CFB1E00C136B4 /* Assets.xcassets */,
+				D46155132B9CFB1E00C136B4 /* LaunchScreen.storyboard */,
+				D46155162B9CFB1E00C136B4 /* Info.plist */,
+			);
+			path = Zotto;
+			sourceTree = "<group>";
+		};
+		D461551E2B9CFB1E00C136B4 /* ZottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D461551F2B9CFB1E00C136B4 /* ZottoTests.swift */,
+			);
+			path = ZottoTests;
+			sourceTree = "<group>";
+		};
+		D46155282B9CFB1E00C136B4 /* ZottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D46155292B9CFB1E00C136B4 /* ZottoUITests.swift */,
+				D461552B2B9CFB1E00C136B4 /* ZottoUITestsLaunchTests.swift */,
+			);
+			path = ZottoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46155042B9CFB1D00C136B4 /* Zotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D461552F2B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "Zotto" */;
+			buildPhases = (
+				D46155012B9CFB1D00C136B4 /* Sources */,
+				D46155022B9CFB1D00C136B4 /* Frameworks */,
+				D46155032B9CFB1D00C136B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zotto;
+			productName = Zotto;
+			productReference = D46155052B9CFB1D00C136B4 /* Zotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D461551A2B9CFB1E00C136B4 /* ZottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46155322B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "ZottoTests" */;
+			buildPhases = (
+				D46155172B9CFB1E00C136B4 /* Sources */,
+				D46155182B9CFB1E00C136B4 /* Frameworks */,
+				D46155192B9CFB1E00C136B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D461551D2B9CFB1E00C136B4 /* PBXTargetDependency */,
+			);
+			name = ZottoTests;
+			productName = ZottoTests;
+			productReference = D461551B2B9CFB1E00C136B4 /* ZottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D46155242B9CFB1E00C136B4 /* ZottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46155352B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "ZottoUITests" */;
+			buildPhases = (
+				D46155212B9CFB1E00C136B4 /* Sources */,
+				D46155222B9CFB1E00C136B4 /* Frameworks */,
+				D46155232B9CFB1E00C136B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D46155272B9CFB1E00C136B4 /* PBXTargetDependency */,
+			);
+			name = ZottoUITests;
+			productName = ZottoUITests;
+			productReference = D46155252B9CFB1E00C136B4 /* ZottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46154FD2B9CFB1D00C136B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D46155042B9CFB1D00C136B4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D461551A2B9CFB1E00C136B4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D46155042B9CFB1D00C136B4;
+					};
+					D46155242B9CFB1E00C136B4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D46155042B9CFB1D00C136B4;
+					};
+				};
+			};
+			buildConfigurationList = D46155002B9CFB1D00C136B4 /* Build configuration list for PBXProject "Zotto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46154FC2B9CFB1D00C136B4;
+			productRefGroup = D46155062B9CFB1D00C136B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46155042B9CFB1D00C136B4 /* Zotto */,
+				D461551A2B9CFB1E00C136B4 /* ZottoTests */,
+				D46155242B9CFB1E00C136B4 /* ZottoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46155032B9CFB1D00C136B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46155122B9CFB1E00C136B4 /* Assets.xcassets in Resources */,
+				D46155152B9CFB1E00C136B4 /* Base in Resources */,
+				D46155102B9CFB1D00C136B4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155192B9CFB1E00C136B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155232B9CFB1E00C136B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46155012B9CFB1D00C136B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461550D2B9CFB1D00C136B4 /* ViewController.swift in Sources */,
+				D46155092B9CFB1D00C136B4 /* AppDelegate.swift in Sources */,
+				D461550B2B9CFB1D00C136B4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155172B9CFB1E00C136B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46155202B9CFB1E00C136B4 /* ZottoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46155212B9CFB1E00C136B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D461552A2B9CFB1E00C136B4 /* ZottoUITests.swift in Sources */,
+				D461552C2B9CFB1E00C136B4 /* ZottoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D461551D2B9CFB1E00C136B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46155042B9CFB1D00C136B4 /* Zotto */;
+			targetProxy = D461551C2B9CFB1E00C136B4 /* PBXContainerItemProxy */;
+		};
+		D46155272B9CFB1E00C136B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D46155042B9CFB1D00C136B4 /* Zotto */;
+			targetProxy = D46155262B9CFB1E00C136B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D461550E2B9CFB1D00C136B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D461550F2B9CFB1D00C136B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46155132B9CFB1E00C136B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46155142B9CFB1E00C136B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D461552D2B9CFB1E00C136B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D461552E2B9CFB1E00C136B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46155302B9CFB1E00C136B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zotto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.Zotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46155312B9CFB1E00C136B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zotto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.Zotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D46155332B9CFB1E00C136B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.ZottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zotto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zotto";
+			};
+			name = Debug;
+		};
+		D46155342B9CFB1E00C136B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.ZottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zotto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zotto";
+			};
+			name = Release;
+		};
+		D46155362B9CFB1E00C136B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.ZottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zotto;
+			};
+			name = Debug;
+		};
+		D46155372B9CFB1E00C136B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.narra.ZottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zotto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46155002B9CFB1D00C136B4 /* Build configuration list for PBXProject "Zotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D461552D2B9CFB1E00C136B4 /* Debug */,
+				D461552E2B9CFB1E00C136B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D461552F2B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "Zotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46155302B9CFB1E00C136B4 /* Debug */,
+				D46155312B9CFB1E00C136B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46155322B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "ZottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46155332B9CFB1E00C136B4 /* Debug */,
+				D46155342B9CFB1E00C136B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46155352B9CFB1E00C136B4 /* Build configuration list for PBXNativeTarget "ZottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46155362B9CFB1E00C136B4 /* Debug */,
+				D46155372B9CFB1E00C136B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D46154FD2B9CFB1D00C136B4 /* Project object */;
+}
