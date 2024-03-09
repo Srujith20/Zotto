@@ -1,5 +1,8 @@
-![Icon-App-76x76@1x](https://github.com/Srujith20/Zotto/assets/66065988/cfa4d3ad-f325-45db-980f-be4dcde2a192)
-# Zotto
+<div align="center">
+  <img src="https://github.com/Srujith20/Zotto/assets/66065988/cfa4d3ad-f325-45db-980f-be4dcde2a192" alt="Zotto Icon">
+</div>
+
+<h1 align="center">Zotto</h1>
 
 ## Description
 Zotto is an iOS application developed using Xcode, designed to enhance the dining experience for both customers and restaurant staff. The app offers various features such as menu browsing, ordering, table reservations, and order tracking, all aimed at improving efficiency and convenience.
